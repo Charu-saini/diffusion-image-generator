@@ -18,10 +18,15 @@ It includes **training, sampling, and checkpointing**, and demonstrates how forw
 ## 📂 Project Structure
 .
 ├── train.py # Training loop with checkpointing
+
 ├── sample.py # Reverse diffusion sampling
+
 ├── model.py # Tiny model with timestep conditioning
+
 ├── utils.py # Helper functions (q_sample, noise schedule, image loading)
+
 ├── data_images/ # Training images
+
 └── outputs/ # Models, graphs, checkpoints
 
 
@@ -75,7 +80,3 @@ Install all with:
 
 pip install -r requirements.txt
 
-
-⚡ This README is **professional but simple** — enough to impress reviewers on GitHub while making it easy for others to run your project.  
-
-Do you want me to also create a **short GIF/diagram** for the README (forward + r
